@@ -57,4 +57,8 @@ public class Utente {
 	public void setPeso(int peso) {
 		this.peso = peso;
 	}
+	public String toString() {
+		return "Utente [nome=" + nome + ", genero=" + genero + ", idade=" + idade + ", altura=" + altura + ", peso="
+				+ peso + "]";
+	}
 }
